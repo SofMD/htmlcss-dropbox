@@ -74,11 +74,10 @@ main .hero {
     width: 80%;
     margin: 0 auto;
     position: relative;
-    top: 50px;
+    top: 60px;
 }
 main .hero-title, .hero-content {
     width: 100%;
-    margin-top: 40px;
 }
 h1 {
     font-size: 69px;
@@ -101,11 +100,6 @@ main .hero-content .hero-image {
 main .hero-content .hero-image img {
     max-width: 100%;
 }
-
-
-
-
-
 /*BRAND-CONTAINER*/
 /*BANNER*/
 /*QUESTIONS*/
