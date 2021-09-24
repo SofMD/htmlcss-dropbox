@@ -23,18 +23,41 @@
     width: 100vw;
 }
 .pd-rg30 {
-    padding-right: 30px;
+    padding-right: 35px;
+}
+/*button*/
+.button {
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 20px;
 }
 
 /*HEADER*/
 header {
-    background-color: rgb(17, 0, 255);
+    background-color: rgb(173, 167, 250);
+    height: 70px;
 }
 .left-side, .right-side{
-    padding: 0 20px;
+    padding: 0 15px;
+    line-height: 70px;
 }
-header .header-logo, .header-list, .button {
+header .header-logo, .header-list, .header-button {
     display: inline-block;
+}
+
+header .header-logo img {
+    vertical-align: middle;
+}
+
+header .header-list li {
+    list-style: none;
+    display: inline-block;
+}
+header .header-list li a {
+    text-decoration: none;
+    color: black;
 }
 
 
