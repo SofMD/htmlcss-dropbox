@@ -6,7 +6,41 @@
 }
 
 /*UTILITY*/
+/*float*/
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+.fl-lf {
+    float: left;
+}
+.fl-rg {
+    float: right;
+}
+/*dimensioni e spaziatura*/
+.full-w {
+    width: 100vw;
+}
+.pd-rg30 {
+    padding-right: 30px;
+}
+
 /*HEADER*/
+header {
+    background-color: rgb(17, 0, 255);
+}
+.left-side, .right-side{
+    padding: 0 20px;
+}
+header .header-logo, .header-list, .button {
+    display: inline-block;
+}
+
+
+
+
+
 /*HERO*/
 /*MAIN*/
 /*BRAND-CONTAINER*/
