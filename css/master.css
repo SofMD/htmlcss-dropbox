@@ -23,11 +23,17 @@
 .full-w {
     width: 100vw;
 }
+.wdt100 {
+    width: 100%;
+}
 .pd-rg30 {
     padding-right: 35px;
 }
 .mrg-top30 {
     margin-top: 30px;
+}
+.mrg-top15 {
+    margin-top: 20px;
 }
 .mrg-wdt {
     width: 70%;
@@ -37,10 +43,21 @@
 .fn-sz {
     font-size: 14px;
 }
-
 h2 {
     font-size: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h3 {
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h4 {
+    font-size: 15pxpx;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*Style*/
+.brd {
+    border: 1px solid lightgrey;
 }
 /*button*/
 .button {
@@ -86,9 +103,7 @@ main .hero {
     position: relative;
     top: 60px;
 }
-main .hero-title, .hero-content {
-    width: 100%;
-}
+
 h1 {
     font-size: 65px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -113,28 +128,32 @@ main .hero-content .hero-image img {
 }
 /*colums*/
 main .colums-container {
-    margin-top: 200px;
-}
-main .colums-container .colums {
-    width: 100%;
+    margin-top: 180px;
 }
 .col-left {
     width: 30%;
-    background-color: chocolate;
 }
-
 .col-center {
     width: 30%;
     margin: 0 5%;
     background-color: cornflowerblue;
 }
-
 .col-right {
     width:30%;
     background-color: burlywood;
 }
 
-
+.colums .col-type {
+    padding: 10px;
+    text-align: center;
+}
+.colums .col-content {
+    padding: 20px;
+}
+.colums .col-content .light-text {
+    color:gray;
+    margin-top: 10px;
+}
 
 /*BRAND-CONTAINER*/
 /*BANNER*/
