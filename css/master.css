@@ -28,6 +28,10 @@
 .mrg-top30 {
     margin-top: 30px;
 }
+.mrg-wdt {
+    width: 70%;
+    margin: 0 auto;
+}
 
 .fn-sz {
     font-size: 14px;
@@ -100,6 +104,32 @@ main .hero-content .hero-image {
 main .hero-content .hero-image img {
     max-width: 100%;
 }
+/*colums*/
+main .colums-container {
+    background-color: coral;
+    margin-top: 200px;
+}
+main .colums-container .colums {
+    width: 100%;
+}
+.col-left {
+    width: 30%;
+    background-color: chocolate;
+}
+
+.col-center {
+    width: 30%;
+    margin: 0 5%;
+    background-color: cornflowerblue;
+}
+
+.col-right {
+    width:30%;
+    background-color: burlywood;
+}
+
+
+
 /*BRAND-CONTAINER*/
 /*BANNER*/
 /*QUESTIONS*/
