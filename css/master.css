@@ -58,13 +58,26 @@ header .header-list li a {
     text-decoration: none;
     color: black;
 }
-
-
-
-
-
-/*HERO*/
 /*MAIN*/
+/*hero*/
+main .hero {
+    background-color: #b4d0e7;
+}
+ main .hero .hero-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: violet;
+    /*position: relative;
+    top: 100px;*/
+}
+main .hero-title, .hero-content {
+    width: 100%;
+}
+
+
+
+
+
 /*BRAND-CONTAINER*/
 /*BANNER*/
 /*QUESTIONS*/
