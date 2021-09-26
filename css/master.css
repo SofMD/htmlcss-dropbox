@@ -179,9 +179,11 @@ main .enterprise .enterprise-title {
     padding: 10px;
     text-align: center;
 }
+main .enterprise .enterprise-content {
+    padding: 20px;
+}
 main .enterprise .enterprise-content .content-left {
     width: 65%;
-    background-color: salmon;
 }
 main .enterprise .enterprise-content .content-right {
     width: 35%;
