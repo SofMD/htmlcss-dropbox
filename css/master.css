@@ -35,6 +35,9 @@
 .mrg-top15 {
     margin-top: 20px;
 }
+.mrg-top60 {
+    margin-top: 60px;
+}
 .mrg-wdt {
     width: 70%;
     margin: 0 auto;
@@ -209,6 +212,9 @@ main .partners .partners-content .partners-writes .button {
 /*ACTIVITY*/
 main .activity {
     margin-top: 100px;
+}
+main .activity .activity-colums div:nth-child(5) {
+    margin-top: 60px;
 }
 
 
