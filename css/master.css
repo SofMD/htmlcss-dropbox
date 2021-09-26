@@ -187,7 +187,10 @@ main .enterprise .enterprise-content .content-left {
 }
 main .enterprise .enterprise-content .content-right {
     width: 35%;
-    background-color: sandybrown;
+    margin-top: 10px;
+}
+main .enterprise .enterprise-content .content-right .button {
+    padding: 5px 78px;
 }
 /*BRAND-CONTAINER*/
 /*BANNER*/
