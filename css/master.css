@@ -202,7 +202,12 @@ main .partners .partners-content .partners-image {
 }
 main .partners .partners-content .partners-writes {
     width: 50%;
-    background-color: pink;
+    padding: 30px 5px 0 40px;
+}
+main .partners .partners-content .partners-writes .button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
 }
 
 
