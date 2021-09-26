@@ -139,7 +139,7 @@ main .colums-container {
     margin-top: 180px;
     height: 1000px;
 }
-main .colums-container .colonne, .colonna-centrale {
+main .colums-container .colonne, main .colums-container .colonna-centrale {
     height: 860px;
 }
 .colums .col-type {
