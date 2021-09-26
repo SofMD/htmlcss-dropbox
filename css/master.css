@@ -126,6 +126,7 @@ main .hero-content .hero-image {
 main .hero-content .hero-image img {
     max-width: 100%;
 }
+
 /*colums*/
 main .colums-container {
     margin-top: 180px;
@@ -192,6 +193,20 @@ main .enterprise .enterprise-content .content-right {
 main .enterprise .enterprise-content .content-right .button {
     padding: 5px 78px;
 }
+/*DB PARTNERS*/
+main .partners {
+    margin-top: 100px;
+}
+main .partners .partners-content .partners-image {
+    width: 50%;
+    background-color: rosybrown;
+}
+main .partners .partners-content .partners-writes {
+    width: 50%;
+    background-color: pink;
+}
+
+
 /*BRAND-CONTAINER*/
 /*BANNER*/
 /*QUESTIONS*/
