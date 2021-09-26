@@ -129,19 +129,20 @@ main .hero-content .hero-image img {
 /*colums*/
 main .colums-container {
     margin-top: 180px;
+    height: 1000px;
 }
 .col-left {
     width: 30%;
-    height: 900px;
+    height: 860px;
 }
 .col-center {
     width: 30%;
     margin: 0 5%;
-    height: 900px;
+    height: 860px;
 }
 .col-right {
     width:30%;
-    height: 900px;
+    height: 860px;
 }
 
 .colums .col-type {
@@ -170,6 +171,18 @@ main .colums-container {
     color: #0061ff;
 }
 
+/*ENTERPRISE*/
+main .enterprise {
+    margin-top: 35px;
+}
+main .enterprise .enterprise-title {
+    background-color: bisque;
+    padding: 10px;
+    text-align: center;
+}
+main .enterprise .enterprise-content {
+    background-color: salmon;
+}
 /*BRAND-CONTAINER*/
 /*BANNER*/
 /*QUESTIONS*/
