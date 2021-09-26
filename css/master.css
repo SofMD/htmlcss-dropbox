@@ -67,7 +67,14 @@ h4 {
     text-align: center;
     padding: 5px 20px;
 }
-
+/*colonne*/
+.colonne {
+    width: 30%;
+}
+.colonna-centrale {
+    width: 30%;
+    margin: 0 5%;
+}
 /*HEADER*/
 header {
     height: 70px;
@@ -132,20 +139,9 @@ main .colums-container {
     margin-top: 180px;
     height: 1000px;
 }
-.col-left {
-    width: 30%;
+main .colums-container .colonne, .colonna-centrale {
     height: 860px;
 }
-.col-center {
-    width: 30%;
-    margin: 0 5%;
-    height: 860px;
-}
-.col-right {
-    width:30%;
-    height: 860px;
-}
-
 .colums .col-type {
     padding: 10px;
     text-align: center;
@@ -209,6 +205,19 @@ main .partners .partners-content .partners-writes .button {
     color: black;
     border: 1px solid black;
 }
+
+/*ACTIVITY*/
+main .activity {
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
 
 
 /*BRAND-CONTAINER*/
