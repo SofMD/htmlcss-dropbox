@@ -132,15 +132,16 @@ main .colums-container {
 }
 .col-left {
     width: 30%;
+    height: 900px;
 }
 .col-center {
     width: 30%;
     margin: 0 5%;
-    background-color: cornflowerblue;
+    height: 900px;
 }
 .col-right {
     width:30%;
-    background-color: burlywood;
+    height: 900px;
 }
 
 .colums .col-type {
