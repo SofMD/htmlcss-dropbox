@@ -192,6 +192,7 @@ main .enterprise .enterprise-content .content-right {
 main .enterprise .enterprise-content .content-right .button {
     padding: 5px 78px;
 }
+
 /*DB PARTNERS*/
 main .partners {
     margin-top: 100px;
@@ -222,15 +223,17 @@ main .activity .activity-colums div:nth-child(5) {
     margin-top: 180px;
 }
 
-
-
-
-
-
-
-
-
 /*BRAND-CONTAINER*/
+main .brand-container .center {
+    width: 40%;
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+
 /*BANNER*/
 /*QUESTIONS*/
 /*FOOTER*/
