@@ -360,6 +360,9 @@ footer .footer-contain .footer-col ul li {
 footer .footer-contain .footer-col ul li a {
     color: white;
 }
+footer .footer-contain .footer-col ul li a:hover {
+    text-decoration: underline;
+}
 footer .footer-contain .lingua {
     color: grey;
     width: 100px;
