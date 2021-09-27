@@ -27,7 +27,7 @@
     width: 100%;
 }
 .pd-rg30 {
-    padding-right: 35px;
+    margin-right: 35px;
 }
 .mrg-top30 {
     margin-top: 30px;
@@ -108,6 +108,12 @@ header .left-side, .right-side{
 }
 header .header-logo img {
     vertical-align: middle;
+}
+header ul li {
+    border-bottom: 3px solid transparent;   
+}
+header ul li:hover {
+    border-bottom: 3px solid blue; 
 }
 /*MAIN*/
 /*hero*/
