@@ -284,12 +284,21 @@ main .brand-container .colonne .box .box-image {
     transform: translate(-50%, -50%);  
 }
 
-
-
-
-
-
-
 /*BANNER*/
+main .banner {
+    background-color: #b4d0e7;
+}
+main .banner .baner-contain {
+    padding: 100px 0;
+}
+main .banner .banner-title, main .banner .banner-button {
+    width: 50%;
+    border: 1px solid black;
+} 
+
+
+
+
+
 /*QUESTIONS*/
 /*FOOTER*/
