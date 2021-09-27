@@ -255,6 +255,10 @@ main .brand-container .colonne .box {
     width: 50%;
     height: 50%;
     position: relative;
+    border: 9px solid transparent;
+}
+main .brand-container .colonne .box:hover {
+    border: 9px solid  rgba(255, 255, 255, 0.3);
 }
 /*box-color*/
 main .brand-container .colonne .box-1{
