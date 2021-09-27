@@ -303,7 +303,39 @@ main .banner .banner-button .button {
     padding: 8px 50px;
 }
 
-
-
 /*QUESTIONS*/
+main .questions {
+    margin-top: 120px;
+}
+main .questions .questions-content hr {
+    color: gray;
+}
+main .questions .questions-content .row {
+    border-top: 1px solid grey;
+}
+main .questions .questions-content .row .fl-lf {
+    width: 90%;
+    line-height: 90px;
+}
+main .questions .questions-content .row .fl-rg {
+    width: 10%;
+    line-height: 90px;
+}
+main .questions .questions-content .row:last-child {
+    border-bottom: 1px solid grey;
+}
+/*
+main .questions .questions-content h4 {
+    margin: 30px 0;
+    display: inline-block;
+}
+main .questions .questions-content .row {
+    line-height: 40px;
+}
+main .questions .questions-content .row span {
+    line-height: 40px;
+    display: inline-block;
+}
+*/
+
 /*FOOTER*/
