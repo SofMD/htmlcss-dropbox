@@ -311,7 +311,7 @@ main .questions .questions-content hr {
     color: gray;
 }
 main .questions .questions-content .row {
-    border-top: 1px solid grey;
+    border-top: 1px solid lightgrey;
 }
 main .questions .questions-content .row .fl-lf {
     width: 90%;
@@ -322,7 +322,7 @@ main .questions .questions-content .row .fl-rg {
     line-height: 90px;
 }
 main .questions .questions-content .row:last-child {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid lightgrey;
 }
 
 /*FOOTER*/
@@ -334,9 +334,27 @@ footer {
 footer .footer-contain {
     width: 80%;
     margin: 0 auto;
-    padding-top: 80px;
+}
+footer .footer-contain .footer-colums {
+    padding: 80px 0;
 }
 footer .footer-contain .footer-col {
     width: 20%;
-    border: 1px solid white;
+}
+footer .footer-contain .footer-col h3 {
+    font-size: 20px;
+}
+footer .footer-contain .footer-col ul li {
+    list-style: none;
+    margin-top: 5px;
+}
+footer .footer-contain .footer-col ul li a {
+    text-decoration: none;
+    color: white;
+}
+footer .footer-contain .lingua {
+    color: grey;
+    width: 100px;
+    padding: 50px 0;
+    border-top: 0.4px solid gray;
 }
