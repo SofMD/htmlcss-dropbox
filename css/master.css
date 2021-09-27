@@ -7,6 +7,9 @@
 }
 
 /*UTILITY*/
+html{
+    scroll-behavior: smooth;
+}
 /*float*/
 .clearfix {
     content: '';
@@ -137,7 +140,7 @@ main .hero-content .hero-write {
 main .hero-content .hero-write > .fn-sz {
     margin-top: 10px;
 }
-main .hero-content .hero-write > i {
+main .hero-content .hero-write a > i {
     font-size: 40px;
 }
 main .hero-content .hero-image {
