@@ -263,6 +263,18 @@ main .brand-container .colonne .box-3 {
 main .brand-container .colonne .box-4 {
     background-color: #ff1c1c;
 }
+main .brand-container .colonne .box-5 {
+    background-color: #d5001f;
+}
+main .brand-container .colonne .box-6 {
+    background-color: #b4d0e7;
+}
+main .brand-container .colonne .box-7 {
+    background-color: #0d2481;
+}
+main .brand-container .colonne .box-8 {
+    background-color: #ffd830;
+}
 
 main .brand-container .colonne .box .box-image {
     max-width: 65%;
