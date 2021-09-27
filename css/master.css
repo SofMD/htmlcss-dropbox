@@ -324,18 +324,19 @@ main .questions .questions-content .row .fl-rg {
 main .questions .questions-content .row:last-child {
     border-bottom: 1px solid grey;
 }
-/*
-main .questions .questions-content h4 {
-    margin: 30px 0;
-    display: inline-block;
-}
-main .questions .questions-content .row {
-    line-height: 40px;
-}
-main .questions .questions-content .row span {
-    line-height: 40px;
-    display: inline-block;
-}
-*/
 
 /*FOOTER*/
+footer {
+    margin-top: 150px;
+    background-color: #000000;
+    color: white;
+}
+footer .footer-contain {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+footer .footer-contain .footer-col {
+    width: 20%;
+    border: 1px solid white;
+}
