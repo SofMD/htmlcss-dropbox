@@ -291,12 +291,17 @@ main .banner {
 main .banner .baner-contain {
     padding: 100px 0;
 }
-main .banner .banner-title, main .banner .banner-button {
+main .banner .banner-title, main .banner .banner-button{
     width: 50%;
-    border: 1px solid black;
 } 
-
-
+main .banner .banner-title h2 {
+    color: #61082b;
+}
+main .banner .banner-button .button {
+    background-color: white;
+    color: black; 
+    padding: 8px 50px;
+}
 
 
 
