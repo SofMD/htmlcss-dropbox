@@ -62,6 +62,9 @@ h4 {
 .brd {
     border: 1px solid lightgrey;
 }
+.inv {
+    filter: invert(1);
+}
 /*button*/
 .button {
     background-color: #0061ff;
@@ -140,10 +143,10 @@ main .hero-content .hero-image img {
 /*colums*/
 main .colums-container {
     margin-top: 180px;
-    height: 1000px;
+    min-height: 1000px;
 }
 main .colums-container .colonne, main .colums-container .colonna-centrale {
-    height: 860px;
+    min-height: 860px;
 }
 .colums .col-type {
     padding: 10px;
@@ -244,9 +247,31 @@ main .brand-container .colonne {
 }
 main .brand-container .colonne .box {
     width: 50%;
-    border: 1px solid black;
     height: 50%;
+    position: relative;
 }
+/*box-color*/
+main .brand-container .colonne .box-1{
+    background-color: #a2d39b;
+}
+main .brand-container .colonne .box-2 {
+    background-color: #61082b;
+}
+main .brand-container .colonne .box-3 {
+    background-color: #0093ce;
+}
+main .brand-container .colonne .box-4 {
+    background-color: #ff1c1c;
+}
+
+main .brand-container .colonne .box .box-image {
+    max-width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+}
+
 
 
 
