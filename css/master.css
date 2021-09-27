@@ -319,6 +319,10 @@ main .banner .banner-button .button {
     color: black; 
     padding: 8px 50px;
 }
+main .banner .banner-button .button:hover {
+    background-color: blue;
+    transition: 0.5s;
+}
 
 /*QUESTIONS*/
 main .questions {
