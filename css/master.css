@@ -46,6 +46,10 @@
 .fn-sz {
     font-size: 14px;
 }
+h1 {
+    font-size: 65px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 h2 {
     font-size: 40px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -65,6 +69,18 @@ h4 {
 .inv {
     filter: invert(1);
 }
+.dsp {
+    display: inline-block;
+}
+.lst-st {
+    list-style: none;
+}
+.tx-dec {
+    text-decoration: none;
+}
+.clr-bl {
+    color: black;
+}
 /*button*/
 .button {
     background-color: #0061ff;
@@ -81,29 +97,17 @@ h4 {
     width: 30%;
     margin: 0 5%;
 }
+
 /*HEADER*/
 header {
     height: 70px;
 }
-.left-side, .right-side{
+header .left-side, .right-side{
     padding: 0 15px;
     line-height: 70px;
 }
-header .header-logo, .header-list, .header-button {
-    display: inline-block;
-}
-
 header .header-logo img {
     vertical-align: middle;
-}
-
-header .header-list li {
-    list-style: none;
-    display: inline-block;
-}
-header .header-list li a {
-    text-decoration: none;
-    color: black;
 }
 /*MAIN*/
 /*hero*/
@@ -116,12 +120,6 @@ main .hero {
     position: relative;
     top: 60px;
 }
-
-h1 {
-    font-size: 65px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 main .hero-content .hero-write {
     width: 40%;
     padding-right: 50px;
@@ -132,12 +130,8 @@ main .hero-content .hero-write > .fn-sz {
 main .hero-content .hero-write > i {
     font-size: 40px;
 }
-
 main .hero-content .hero-image {
     width: 60%;
-}
-main .hero-content .hero-image img {
-    max-width: 100%;
 }
 
 /*colums*/
@@ -167,7 +161,6 @@ main .colums-container .colonne, main .colums-container .colonna-centrale {
     margin-top: 50px;
 }
 .colums .col-content .col-list li {
-    list-style: none;
     margin-top: 15px;
 }
 .colums .col-content .col-list li .fa-check {
@@ -345,11 +338,9 @@ footer .footer-contain .footer-col h3 {
     font-size: 20px;
 }
 footer .footer-contain .footer-col ul li {
-    list-style: none;
     margin-top: 5px;
 }
 footer .footer-contain .footer-col ul li a {
-    text-decoration: none;
     color: white;
 }
 footer .footer-contain .lingua {
