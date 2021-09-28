@@ -128,6 +128,21 @@ header ul li {
 header ul li:hover {
     border-bottom: 3px solid blue; 
 }
+.dropdown-manu {
+    position: relative;
+}
+.dropdown {
+    width: 200px;
+    margin-top: 3px;
+    padding: 10px 20px;
+    line-height: 30px;
+    position: absolute;
+    color: transparent;   
+}
+ header .right-side .header-list .dropdown-manu:hover .dropdown {
+    background-color: whitesmoke;
+    color: black;
+ }
 /*MAIN*/
 /*hero*/
 main .hero {
@@ -388,3 +403,4 @@ footer .footer-contain .lingua {
     padding: 50px 0;
     border-top: 0.4px solid gray;
 }
+
